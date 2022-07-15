@@ -1,0 +1,108 @@
+this is an conditional excutement of a if and else loop.....
+input:
+using System;
+
+namespace CansoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 5;
+            int b = 6;
+            if (a + b > 10)
+                Console.WriteLine("The answer is greater than 10.");
+            else
+                Console.WriteLine("The answer is greater than 10.");
+        }
+    }
+}
+output:
+"The answer is greater than 10."
+
+multiple output printing in a cansole.......
+input:
+int a = 5;
+int b = 3;
+int c = 4;
+if ((a + b + c > 10) && (a == b))
+{
+    Console.WriteLine("The answer is greater than 10");
+    Console.WriteLine("And the first number is equal to the second");
+}
+else
+{
+    Console.WriteLine("The answer is not greater than 10");
+    Console.WriteLine("Or the first number is not equal to the second");
+}
+output:
+The answer is not greater than 10
+Or the first number is not equal to the second
+
+eg 2
+input:
+namespace CansoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 5;
+            int b = 3;
+            int c = 4;
+            if ((a + b + c > 10) || (a == b))
+            {
+                Console.WriteLine("The answer is greater than 10");
+                Console.WriteLine("Or the first number is equal to the second");
+            }
+            else
+            {
+                Console.WriteLine("The answer is not greater than 10");
+                Console.WriteLine("And the first number is not equal to the second");
+            }
+        }
+        
+    }
+}
+output:
+The answer is not greater than 10
+And the first number is not equal to the second
+
+while loop:
+namespace CansoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int counter = 0;
+            while (counter < 10)
+            {
+                Console.WriteLine($"Hello World! The counter is {counter}");
+                counter++;
+            }
+        }
+        
+        
+    }
+}
+
+for loop :
+using System;
+
+namespace CansoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            for (int counter = 0; counter < 10; counter++)
+            {
+                Console.WriteLine($"Hello World! The counter is {counter}");
+            }
+        }
+        
+        
+    }
+}
+

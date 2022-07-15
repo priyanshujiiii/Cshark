@@ -34,6 +34,8 @@ sometime strings have leading and trailing spaces.....
 string greeting = "      Hello World!       ";
 Console.WriteLine($"[{greeting}]");
 
+for an converting a 
+
 string trimmedGreeting = greeting.TrimStart();
 Console.WriteLine($"[{trimmedGreeting}]");
 
@@ -52,3 +54,38 @@ output:
 explanation......
 here we are seeing that the .trimstart trimed strting part and .trimend trimed ending part
 while .trimed all start and end backspaces.... 
+
+now here we learn how to replaced a string....
+
+input:
+string sayHello = "Hello World!";
+Console.WriteLine(sayHello);
+sayHello = sayHello.Replace("Hello", "Greetings");
+Console.WriteLine(sayHello);
+
+output;
+Hello World!
+Greetings World!
+
+so here simple things got replaced....
+
+for here converting a string in to in upper and lowercase
+you do 
+input:
+Console.WriteLine(sayHello.ToUpper());
+Console.WriteLine(sayHello.ToLower());
+output:
+GREETINGS WORLD!
+greetings world!
+
+so here you saw changes
+
+#searching strings
+
+input:
+string songLyrics = "You say goodbye, and I say hello";
+Console.WriteLine(songLyrics.Contains("goodbye"));
+Console.WriteLine(songLyrics.Contains("greetings"));
+output:
+True
+False

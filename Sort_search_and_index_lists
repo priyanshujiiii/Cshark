@@ -1,0 +1,55 @@
+here we are sorting a list and searching.....
+
+
+using System;
+
+namespace CansoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var names = new List<string> { "<name>", "Ana", "Felipe" };
+
+            var index = names.IndexOf("Felipe");
+            if (index != -1)
+                Console.WriteLine($"The name {names[index]} is at index {index}");
+
+            var notFound = names.IndexOf("Not Found");
+            Console.WriteLine($"When an item is not found, IndexOf returns {notFound}");
+
+        }
+        
+        
+    }
+}
+
+lets sort a list.....
+
+input;
+using System;
+
+namespace CansoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var names = new List<string> { "name", "Ana", "Felipe" };
+
+            names.Sort();
+            foreach (var name in names)
+            {
+                Console.WriteLine($"Hello {name.ToUpper()}!");
+            }
+
+        }
+        
+        
+    }
+}
+
+output:
+Hello Ana
+Hello Felipe
+Hello name

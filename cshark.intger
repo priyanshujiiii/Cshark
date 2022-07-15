@@ -1,0 +1,80 @@
+now this first fall addition of intger...
+input:
+int a = 18;
+int b = 6;
+int c = a + b;
+Console.WriteLine(c);
+output:
+24
+
+addition : +
+multiplication : *
+subtraction : -
+division : /
+
+now this for Subtraction of intger...
+input:
+int a = 18;
+int b = 6;
+int c = a - b;
+Console.WriteLine(c);
+output:
+12
+
+now this for Multiplication of intger...
+input:
+int a = 18;
+int b = 6;
+int c = a * b;
+Console.WriteLine(c);
+output:
+108
+
+now this for division of intger...
+input:
+int a = 18;
+int b = 6;
+int c = a / b;
+Console.WriteLine(c);
+output:
+3
+
+finding qutoient and remainder 
+input:
+int a = 7;
+int b = 4;
+int c = 3;
+int d = (a + b) / c;
+int e = (a + b) % c;
+Console.WriteLine($"quotient: {d}");
+Console.WriteLine($"remainder: {e}");
+output:
+quotient: 3
+remainder: 2
+
+we can also add a number with a string 
+input:
+int max = int.MaxValue;
+int min = int.MinValue;
+int what = max + 3;
+Console.WriteLine($"An example of overflow: {what}");
+output:
+An example of overflow: -2147483646
+
+differnce between a decimal , int, long
+input:
+decimal min = decimal.MinValue;
+decimal max = decimal.MaxValue;
+Console.WriteLine($"The range of the decimal type is{min} to {max}");
+
+int min2 = int.MinValue;
+int max2 = int.MaxValue;
+Console.WriteLine($"The range of the int type is{min} to {max}");
+
+long min3 = long.MinValue;
+long max3 = long.MaxValue;
+Console.WriteLine($"The range of the long type is{min} to {max}");
+output:
+The range of the decimal type is-79228162514264337593543950335 to 79228162514264337593543950335
+The range of the int type is-2147483648 to 2147483647
+The range of the long type is-9223372036854775808 to 9223372036854775807

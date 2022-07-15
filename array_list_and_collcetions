@@ -26,3 +26,33 @@ Hello Ana
 Hello Felipe
 
 Things to keep remebered the function "var" makes the name list , here list defined that the they store strings.
+
+modifing list content 
+input:
+using System;
+
+namespace CansoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var names = new List<string> { "<name>", "Ana", "Felipe" };
+
+            names.Add("Maria");
+            names.Add("Bill");
+            names.Remove("Ana");
+            foreach (var name in names)
+            {
+                Console.WriteLine($"Hello {name.ToUpper()}!");
+            }
+
+        }
+        
+        
+    }
+}
+output:
+Hello <name>
+Hello Ana
+Hello Felipe

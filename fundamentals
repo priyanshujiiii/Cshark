@@ -1,0 +1,54 @@
+its an hello world programme
+
+Console.WriteLine("Hello Priyanshu"),
+
+for assigning variable .....
+
+string aFriend = ", how are you";
+Console.WriteLine(aFriend);
+
+adding string with a variable
+
+string aFriend = "Bill";
+Console.WriteLine("hello" + aFriend);
+
+shortcut for the above code is an 
+
+Console.WriteLine($"Hello Priyanshu{aFriend}"
+
+work with strings
+
+for more friends
+
+string firstFriend = "Priyanshu";
+string secondFriend = "sachin";
+Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
+
+calculating the length of a strings.....
+
+Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters.");
+Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters.");
+
+sometime strings have leading and trailing spaces.....
+
+string greeting = "      Hello World!       ";
+Console.WriteLine($"[{greeting}]");
+
+string trimmedGreeting = greeting.TrimStart();
+Console.WriteLine($"[{trimmedGreeting}]");
+
+trimmedGreeting = greeting.TrimEnd();
+Console.WriteLine($"[{trimmedGreeting}]");
+
+trimmedGreeting = greeting.Trim();
+Console.WriteLine($"[{trimmedGreeting}]");
+
+output:
+[      Hello World!       ]
+[Hello World!       ]
+[      Hello World!]
+[Hello World!]
+
+explanation......
+here we are seeing that the .trimstart trimed strting part and .trimend trimed ending part
+while .trimed all start and end backspaces.... 
